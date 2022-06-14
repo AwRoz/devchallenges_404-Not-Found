@@ -1,0 +1,38 @@
+/* defining standard styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 62.5%;}
+body{font-family: 'Space Mono', monospace;}
+a{text-decoration: none;}
+h2{font-size: 4.8rem; line-height: 7.1rem;}
+h4{font-size: 2.4rem;}
+
+:root{
+    --grey: #333333;
+    --greyligth: #BDBDBD;
+}
+/* main styles */
+
+p{
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+a{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+h6{
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+.scarecrow img{
+    display: block;
+    width: 287px;
+    height: 238px;
+}
+
