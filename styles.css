@@ -4,10 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{font-size: 46%;}/*46% works fots more with the original figma desing than 62.5*/
+html{font-size: 55%;}/*46% works fots more with the original figma desing than 62.5*/
 body{font-family: 'Space Mono', monospace;}
 a{text-decoration: none;}
-h2{font-size: 4.8rem; line-height: 7.1rem;}
+h2{font-size: 4.8rem; line-height: 7.1rem; color: var(--grey);}
 h4{font-size: 2.2rem; font-family: 'Inconsolata', monospace; font-weight: 700;}
 
 :root{
@@ -24,14 +24,11 @@ p{
     color: var(--grey2);
     font-weight: 200;
 }
-a{
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-}
+
 h6{
     font-family: 'Montserrat', sans-serif;;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 200;
     line-height: 1.7rem;
     color: var(--greyligth);
 }
@@ -39,18 +36,50 @@ h6 span{
     font-weight: bold;
     text-decoration: underline;
 }
-.scarecrow img{
+.scarecrow-container{
+    width:fit-content;
+}
+.scarecrow-container img{
     display: block;
-    width: 287px;
-    height: 238px;
+    max-width: 234px;
 }
 
 .main-button{
     display: block;
-    width: 216px;
-    height: 68px;
+    width: 175px;
+    height: 60px;
     padding: 22px 0;
     background-color: var(--grey);
     color: var(--white);
     text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+}
+
+.main-container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    padding: 24px;
+}
+
+.footer{
+    justify-self: center;
+    align-self: end;
+}
+
+.content-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
