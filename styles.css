@@ -7,7 +7,7 @@
 html{font-size: 55%;}/*46% works fots more with the original figma desing than 62.5*/
 body{font-family: 'Space Mono', monospace;}
 a{text-decoration: none;}
-h2{font-size: 4.8rem; line-height: 7.1rem; color: var(--grey);}
+h2{font-size: 4.8rem; line-height: 6rem; color: var(--grey);}
 h4{font-size: 2.2rem; font-family: 'Inconsolata', monospace; font-weight: 700;}
 
 :root{
@@ -36,12 +36,16 @@ h6 span{
     font-weight: bold;
     text-decoration: underline;
 }
+
 .scarecrow-container{
-    width:fit-content;
+    display: flex;
+    justify-content: center;
+    /* width:fit-content; */
 }
 .scarecrow-container img{
     display: block;
-    max-width: 234px;
+    width: 80%;
+    /* max-width: 234px; */
 }
 
 .main-button{
@@ -58,10 +62,12 @@ h6 span{
 }
 
 .main-container{
+    min-height: 667px;
+    min-width: 320px;
     height: 100vh;
     display: grid;
     grid-template-rows: 50px 1fr 50px;
-    padding: 24px;
+    padding: 20px;
 }
 
 .footer{
@@ -73,7 +79,7 @@ h6 span{
     height: 80vh;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     justify-content: space-evenly;
 }
