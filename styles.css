@@ -1,9 +1,9 @@
 /* defining standard styles */
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 html{font-size: 55%;}/*46% works fots more with the original figma desing than 62.5*/
 body{font-family: 'Space Mono', monospace;}
 a{text-decoration: none;}
