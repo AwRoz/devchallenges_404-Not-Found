@@ -89,3 +89,14 @@ h6 span{
     flex-direction: column;
     gap: 20px;
 }
+
+@media (min-width:824px) {
+    .content-container{
+        display:flex;
+        flex-direction:row;
+        max-width: 2000px;/*in case of 4k, to keep consistency*/
+        margin: 0 auto;
+        gap: 0;
+    }
+
+}
