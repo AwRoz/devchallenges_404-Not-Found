@@ -36,7 +36,7 @@
 
 ![screenshot](https://i.imgur.com/dksuiQj.gif)
 
-this is my first published github project, trying to solve the first challenge from devchallenges.io
+this is my first published github project, trying to solve the first challenge from devchallenges.io. hello!
 
 i just just my knolege on css trying to implement the best practices i have been learning recently like css grid and flex also to use the rigth html structure.
 ### Built With
